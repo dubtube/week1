@@ -1,0 +1,63 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: red;
+  min-height: 100vh;
+
+}
+
+@media (max-width : 800px){
+  
+  .App{
+  background-color: black;
+  }
+}
+
+img{
+  height: 80%;
+  width: 80%;
+}
+
+.nav {
+  display: flex;
+  width: calc(100vw - 32px);
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 44px;
+  padding: 0 16px 0 16px;
+}
+
+
+.logoimg {
+  display : flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.sec1 {
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  color : white;
+  background-color: black;
+  padding : 5%;
+  
+  
+}
+
+.footer {
+  display : flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  color : white;
+  
+  padding :0 2% 0 2%;
+  
+
+  
+}
+
